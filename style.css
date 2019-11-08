@@ -1,0 +1,148 @@
+body html{
+    height: 100vh;
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 5);
+    grid-template-areas: 
+        "sect1"
+        "main"
+        "skil "
+        "port"
+        "footer";
+      
+}
+.btn{
+    background: darkmagenta;
+    color: lightcoral;
+    padding: 0.6rem;
+    text-decoration: none;
+}
+ .btn:hover{
+    background: darkgray;
+    color: lightblue; 
+ }
+ .h1{
+     background:lightpink ;
+     padding: 0.6rem;
+ }
+.main-nav{
+    grid-area: sidebar;
+    background: lightcoral;
+    text-decoration: none;
+    padding: 0.5rem;
+    text-align: center;
+    color: lightcoral;
+    text-transform: uppercase;
+    font-size: 1rem;
+  
+}
+.main-nav a:hover{
+    background: darkslategray;
+    color: lightcoral;
+}
+
+.main-nav ul li {
+
+    display: inline;
+    padding: 20%;
+}
+
+.top-container{
+    grid-area: sect;
+    min-width: 800px;
+    background: url(img/pic2.jpg);
+    background-size: cover;
+    background-position:center;
+    padding:8rem;
+    align-items: stretch;
+    justify-content: center;
+
+
+}
+.info{
+    grid-area: main;
+    min-width: 30%;
+    background: url(img/pic1.jpg);
+    padding: 8rem;
+}
+
+.skills-set{
+    grid-area: skil1;
+    background-image: url(img/pic3.jpg);
+  margin: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 6);
+    grid-template-areas: 
+        "sidebar header header header"
+        "sidebar sect1"
+        "sidebar main"
+        "sidebar skil1 skil2 skil3"
+        "sidebar port port port"
+        "sidebar footer footer footer";
+
+  margin: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 6);
+    grid-template-areas: 
+        "sidebar header header header"
+        "sidebar sect1"
+        "sidebar main"
+        "sidebar skil1 skil2 skil3"
+        "sidebar port port port"
+        "sidebar footer footer footer";
+  margin: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 6);
+    grid-template-areas: 
+        "sidebar header header header"
+        "sidebar sect1"
+        "sidebar main"
+        "sidebar skil1 skil2 skil3"
+        "sidebar port port port"
+        "sidebar footer footer footer";
+  margin: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 6);
+    grid-template-areas: 
+        "sidebar header header header"
+        "sidebar sect1"
+        "sidebar main"
+        "sidebar skil1 skil2 skil3"
+        "sidebar port port port"
+        "sidebar footer footer footer";
+} 
+
+.portfolio{
+    grid-area: port;
+    grid-template-columns: repeat(auto-fit);
+}
+.footer{
+    grid-area: footer;
+    margin-top: 2rem;
+    background: lightcoral;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media only screen and (min-width:768px)
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 25% 10% 20% 20% auto;
+    grid-template-rows: 8% 20% auto auto auto 8%;
+    grid-template-areas: 
+        "sidebar header header header"
+        "sidebar sect1 "
+        "sidebar main "
+        "sidebar skil"
+        "sidebar port port port"
+        "sidebar footer footer footer";
+}
