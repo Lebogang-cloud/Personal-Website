@@ -1,86 +1,262 @@
 <!DOCTYPE html>
-<html>
-    
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device=width">
-    <meta name="description" content="Lebogang's portfolio"
-    <meta http-equiv="X-UA-Compatible" ie="edge">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<title>Personal Website | Welcome</title>
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    
-    <hearder>
-        <nav class="main-nav">
-     <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT ME</a></li>
-            <li><a href="#">SKILLS</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-        </nav>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewpoint" content="initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Piedra&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+        <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
+        <title>Lebogang Mphago</title>
+        <script src="https://kit.fontawesome.com/569449f139.js" crossorigin="anonymous"></script>
+       
+    </head>
+    <body>
+        <header>
+            <div class="menu-toggler">
+                <div class="bar half start"></div>
+                <div class="bar"></div>
+                <div class="bar half end"></div>
+            </div>
+            <nav class="top-nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                  
+                    <li>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="landing-text">
+            <h1>Lebogang Mphago</h1>
+            <h6>Web developer and UI designer</h6>
+            </div>
         </header>
-    </ul>
-    
-    
-<section class="top-container">
-    
-        <h1>Career Journey</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam odit debitis minima dignissimos, earum repellat et ratione labore tempora culpa nisi eum voluptatum fugiat laborum placeat voluptatem possimus iusto perferendis!</p>                  
-        <a href="#" class="btn">Read more</a>
-    </header>
-</section>
 
-<section class="info">
-
-    <div>
-        <h2>About Me</h2>
+        <section class="about" id="about">
+            
+            <div class="container">
+                <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+                    <img src="images/profile.jpg" alt="">
+                </div>
+                <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+                    <div class="about-heading">
+                        <h1>About</h1>
+                        <h6>Myself</h6>
+                    </div>
+                    <p>
+                        Web Developer with experience in Film Production and Web Development. 
+                        Living in the best of creative and tech world has given me the ability to
+                        balance critical detail between the two, when working on projects. 
+                        I enjoy being positioned in environments where I can execute multiple roles,
+                        so I can offer my UI design and strategic digital marketing skills.
+                    </p>
+                        <br>
+                        
+                    <!-- <a href="#">
+                        <input type="submit" value="Get my CV" >
+                    </a> -->
         
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam est distinctio mollitia dolores cupiditate expedita repellat qui, esse voluptatibus quia aut eum error molestiae blanditiis obcaecati fugiat harum odit? Ex?</p>
-        <a href="#" class="btn">Learn more</a>
-    </div>
-</section>
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100017119662064" class="icon link">
+                                <i class="fab fa-facebook-square"></i>      
+                              </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Lebo_Mp" class="icon link">
+                                <i class="fab fa-twitter-square"></i>                           
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://za.linkedin.com/in/lebogangmphago37269b53" class="icon link">
+                            <i class="fab fa-linkedin"></i>                            
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Lebogang-cloud" class="icon link">
+                                <i class="fab fa-github-square"></i>                          
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Services</h1>
+                    <h6>what I can do</h6>
+                </div>
+                    <div class="my-skills">
+                        <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                            <div class="icon-container">
+                                <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h1>UI Design</h1>
+                        <p>
+                            I develop standard UI components and style guides 
+                            which assist in defining and implementing innovative solutions 
+                            for product direction, visuals and user experience.
+                        </p>
+                    </div>
 
-<section class="skills-set">
-    <h1>SKILLS</h1>
-        
-    <h3>HTML:5 Markup</h3>
-    <p>give detail of what it is</p>
-  
-    <h3>CSS Styling</h3>
-    <p>give detail of what it is</p>
+                    <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                        <div class="icon-container">
+                            <i class="fas fa-code"></i>                         
+                        </div>
+                    <h1>Web design & development</h1>
+                    <p>
+                        I design and develop effective and easy to use websites,
+                        which aims to reflect the clients brands and 
+                        give the user what they need.
+                        </p>
+                    </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container">
+                        <i class="fas fa-chart-bar"></i>                
+                    </div>
+                <h1>Digital Marketing Strategies</h1>
+                <p>
+                    I conduct industry research and stay up-to-date on best practices, 
+                    and emerging technologies in order to 
+                    address product, marketing and business needs.
+                    </p>
+            </div>
+        </div>
+            </div>
+        </section>
 
-    <h3>JavaScript </h3>
-    <p>give detail of what it is</p>
-  
-    
-    <h3>WordPress</h3>
-    <p>give detail of what it is</p>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Portfolio</h1>
+                    <h6>View some of my recent work</h6>
+                </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                    <img src="images/portitem1.jpg" alt="">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+                    <h6>Web Development</h6>
+                    <h1>Book Review Site</h1>
+                        <p>
+                            Demo: <br>
+                            React app that enables users to register an account and 
+                            add a book review under their profile. <br> <br>
+                            - React <br>
+                            - Redux <br>
+                            - HTML <br>
+                            - css <br>
+                            - javascript
 
-    </div>
-    </div>
-    </div>
-</section>
+                        </p>
+                        <a href="https://github.com/Lebogang-cloud/BOOK-REVIEW.git" class="cta">View Details</a>
+                </div>
+                </div>
+                <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+                    <h6>Web Development</h6>
+                    <h1>Memory Game</h1>
+                        <p>
+                            Demo: <br>
+                            Memory game tests how good the users memory is, by shuffling cards and rotating them
+                            as the user tries to match the color cards.
+                            <br> <br>
+                            - HTML <br>
+                            - CSS <br>
+                            - JavaScript
+                        </p>
+                        <a href="https://github.com/Lebogang-cloud/memory-game.git" class="cta">View Details</a>
+                </div>
+                    <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+                        <img src="images/rubic cube.jpg" alt="">
+                    </div>
+                </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                            <img src="images/phone3.jpg" alt="">
+                        </div>
+                        <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+                            <h6>Web Design</h6>
+                            <h1>Quiz app</h1>
+                                <p>Demo: <br>
+                                    Educational app that tests users knowledge in Java. <br> <br>
+                                    - Android studio
+                                </p>
+                                <a href="https://github.com/Lebogang-cloud/Quiz-App.git" class="cta" >View Details</a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
 
-<section class="portfolio">
-    <h2>PORTFOLIO</h2>
-<img src="https://source.unsplash.com/random/200x200" alt="">
-<img src="https://source.unsplash.com/random/201x200" alt="">
-<img src="https://source.unsplash.com/random/202x200" alt="">
-<img src="https://source.unsplash.com/random/203x200" alt="">
-<img src="https://source.unsplash.com/random/204x200" alt="">
-<img src="https://source.unsplash.com/random/205x200" alt="">
-<img src="https://source.unsplash.com/random/206x200" alt="">
-<img src="https://source.unsplash.com/random/207x200" alt="">
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Contact</h1>
+                    <h6>Let's work together</h6>  
+                     <a href="https://calendly.com/mphagol">
+                        <input type="submit" value="Schedule">
+                    </a> 
+                    <h6>Harness the energy of the digital age<br />
+                        with speed and confidence... </h6>
+                    
+            </div>
+            
+            
 
-</section>
-
-<footer>
-<p>Done by: Lebogang Mphago, copyright &copy, 2019</p>
-</footer>
-</div>                                                                                                                                                                 
-</body>
-</html> 
-
+            
+            <div class="social-media">
+                <ul class="nav-list">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100017119662064" class="icon link">
+                            <i class="fab fa-facebook-square"></i>      
+                          </a>
+                    </li>
+                    <li>
+                        <a href="www.twitter.com/Lebo_mp" class="icon link">
+                            <i class="fab fa-twitter-square"></i>                           
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://za.linkedin.com/in/lebogangmphago37269b53" class="icon link">
+                        <i class="fab fa-linkedin"></i>                            
+                        </a>
+                    </li>
+                <li>
+                    <a href="https://github.com/Lebogang-cloud" class="icon link">
+                        <i class="fab fa-github-square"></i>                          
+                    </a>
+                </li>
+                </ul>
+                </div>
+            </section>
+            <footer class="copyright">
+                <div class="up" id="up">
+                <i class="fas fa-chevron-up"></i>
+                </div>
+                <p>&copy; 2020 Lebogang Mphago</p>
+            </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="main.js"></script>
+       
+    </body>
+</html>
